@@ -131,7 +131,7 @@
     "test-coverage": "node --max_old_space_size=4096 node_modules/jest/bin/jest.js --coverage --verbose",
     "watch": "gulp watch",
     "commit": "git-cz",
-    "postinstall": "yarn run build"
+    "postinstall": "yarn install && yarn run build"
   },
   "jest": {
     "collectCoverageFrom": [
